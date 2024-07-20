@@ -66,7 +66,7 @@ button {
 ul li {
     list-style: none;
     font-size: 17px;
-    padding: 12px 8px 12px 50px; /* Ensure there's enough padding on the left */
+    padding: 12px 50px 12px 40px; /* Ensure there's enough padding on the right */
     user-select: none;
     cursor: pointer;
     position: relative;
@@ -96,7 +96,7 @@ ul li.checked::before {
 
 ul li span {
     position: absolute;
-    right: 10px; /* Adjust this value as needed */
+    right: 8px; /* Adjust this value as needed */
     top: 50%; /* Center the span vertically */
     transform: translateY(-50%); /* Ensure vertical centering */
     width: 40px;
